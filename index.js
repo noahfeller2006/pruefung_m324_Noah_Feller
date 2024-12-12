@@ -1,5 +1,6 @@
 import chalk from "chalk"
 
+console.log("Conflict")
 console.log(chalk.red('It works'))
 
 const myUnusedVariable = "nothing";
