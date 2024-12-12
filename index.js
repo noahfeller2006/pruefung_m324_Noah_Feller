@@ -1,6 +1,6 @@
 import chalk from "chalk"
 
-console.log("other thins")
+console.log("Conflict")
 console.log(chalk.red('It works'))
 
 const myUnusedVariable = "nothing";
