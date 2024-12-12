@@ -1,12 +1,12 @@
-import chalk from "chalk"
+import chalk from 'chalk';
 
-console.log("Conflict")
-console.log(chalk.red('It works'))
+console.log('Conflict');
+console.log(chalk.red('It works'));
 
-const myUnusedVariable = "nothing";
-console.log(myUnusedVariable)
+const myUnusedVariable = 'nothing';
+console.log(myUnusedVariable);
 
-const x = 10
+const x = 10;
 if (10 === x) {
-    console.log("10")
+  console.log('10');
 }

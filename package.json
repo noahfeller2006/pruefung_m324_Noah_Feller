@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "start": "npm run lint && npm run format-check && node index.js"
+    "start": "npm run lint && npm run format-check && node index.js && npm run create-md",
+    "create-md": "py mdToHTML.py"
   },
   "author": "",
   "license": "ISC",
